@@ -35,4 +35,5 @@ bg_btn.addEventListener("click", function(){
 const close_btn = document.querySelector(".close");
 close_btn.addEventListener("click",function(){
   menu.classList.add('dislpay-none')
-})
+});
+console.log("кирилл лох")
