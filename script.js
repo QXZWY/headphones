@@ -30,10 +30,16 @@ btns.forEach(function (btn) {
 const menu = document.querySelector('.burger-menu');
 const bg_btn = document.querySelector('.burger-btn');
 bg_btn.addEventListener("click", function(){
-    menu.classList.toggle("dislpay-none")
+    menu.classList.remove("dislpay-none1")
 })
 const close_btn = document.querySelector(".close");
 close_btn.addEventListener("click",function(){
-  menu.classList.add('dislpay-none')
+  menu.classList.add('dislpay-none1')
 });
-console.log("кирилл лох")
+
+let profile_btn = document.querySelector('.profileicon');
+let profile_menu = document.querySelector('.profile-menu');
+profile_btn.addEventListener("click",function(){
+  profile_menu.classList.toggle('dislpay-none2')
+})
+console.log(menu)
